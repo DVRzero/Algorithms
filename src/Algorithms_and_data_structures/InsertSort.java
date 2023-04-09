@@ -1,3 +1,5 @@
+package Algorithms_and_data_structures;
+
 public class InsertSort {
     public static void main(String[] args) {
 
