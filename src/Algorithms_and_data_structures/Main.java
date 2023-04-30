@@ -2,9 +2,10 @@ package Algorithms_and_data_structures;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int arr[] = {1, 4, 5, 3, 8, 9, 6};
     }
 
+}
 /*
     + 1. Отсортировать массив от меньшего к большему придумав свой алгоритм сортировки.
     + 2. Отсортировать массив пузырьковым алгоритмом.
@@ -21,4 +22,3 @@ public class Main {
     13. Реализовать хэш таблицу(ассоциативный массив)
 
 */
-}
