@@ -12,9 +12,9 @@ public class FibonacciRecursive {
 
     public static int fibonacci(int n) {
         if (n == 1 || n == 2) {
-            return n;
+            return n - 1;
         }
-        // int result  = fibonacci(n - 1 + n - 2);
+
         int firstFibNum = fibonacci(n - 1);
         int secondFibNum = fibonacci(n - 2);
         int result = firstFibNum + secondFibNum;

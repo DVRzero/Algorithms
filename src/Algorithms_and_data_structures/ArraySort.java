@@ -1,9 +1,8 @@
 package Algorithms_and_data_structures;
 
 public class ArraySort {
-    public static void main(String[] args) {
+    public int[] sortArr(int[] arr) {
 
-        int arr[] = {1, 4, 5, 3, 8, 9, 6};
         int temp;
         boolean sorted = false;
 
@@ -18,10 +17,8 @@ public class ArraySort {
                 }
             }
         }
-
-        for (int el : arr) {
-            System.out.println(el);
-        }
-
+        return arr;
     }
 }
+
+// Пузырьковая сортировка
