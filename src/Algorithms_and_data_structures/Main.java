@@ -1,36 +1,18 @@
 package Algorithms_and_data_structures;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 4, 5, 3, 8, 9, 6, 7};
 
         int[] arrSort1 = {1, 2, 3};
         int[] arrSort2 = {4, 5, 6};
 
-//***************************************************************
 
-        // * Пузырьковая сортировка *
-//        ArraySort arraySort = new ArraySort();
-        //System.out.println(Arrays.toString(arraySort.sortArr(arr)));
-
-//***************************************************************
-
-        // * Быстрая сортировка *
-//        Scanner scanner = new Scanner(System.in);
-//        int searchNum = scanner.nextInt();
-//        BinarySearch binarySearch = new BinarySearch();
-//        System.out.println(binarySearch.search(arraySort.sortArr(arr), searchNum));
-
-//***************************************************************
 
         // * Сортировка слиянием *
         MergeSort mergeSort = new MergeSort();
         mergeSort.merge(arrSort1, arrSort2);
 
     }
-
 }
 /*
     + 1. Отсортировать массив от меньшего к большему придумав свой алгоритм сортировки.

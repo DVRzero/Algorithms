@@ -1,19 +1,20 @@
 package Algorithms_and_data_structures;
 
 public class MergeSort {
-    public int[] sort(int[] arr) {
-
-    }
+//    public int[] sort(int[] arr) {
+//
+//    }
 
     public int[] merge(int[] a, int[] b) {
         int index1 = 0;
         int index2 = 0;
         int rounds = a.length + b.length;
+//
+//        for (int i = 0; i < ; i++) {
+//
+//        }
 
-        for (int i = 0; i < ; i++) {
-
-        }
-
+        return null;
     }
 }
 
